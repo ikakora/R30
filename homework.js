@@ -43,7 +43,7 @@ let z = 5;      //enter number
 
 let n = 1;
 for (let i = 1; i <= z; i++) {
-    n *= i
+    n *= i;
 }
 
 console.log(n);
@@ -78,7 +78,7 @@ let c = 7;
 let test = true;
 for (let i = 2; i < c; i++) {
     if (c % i == 0) {
-        test = false
+        test = false;
     }
 }
 if(test) {
